@@ -22,7 +22,7 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     border-radius: 1.5em;
-    background-color: #22252d;
+    background-color: #344e41;
     box-shadow:
       0 1px 1px hsl(0deg 0% 0% / 0.075),
       0 2px 2px hsl(0deg 0% 0% / 0.075),
@@ -40,8 +40,8 @@ body {
         font-size: 2rem;
         text-align: right;
         border: none;
-        color: #fff;
-        background-color: #22252d;
+        color: #f3f3f3;
+        background-color: #344e41;
         outline: none;
         pointer-events: none;
     }
@@ -55,7 +55,7 @@ body {
         justify-items: center;
         grid-template-columns: repeat(4, 1fr);
         border-radius: 1.5em;
-        background-color: #292d36;
+        background-color: #3a5a40;
 
         .btn {
             width: 45px;
@@ -65,27 +65,27 @@ body {
             font-weight: 400;
             border-radius: .5em;
             border: none;
-            background-color: #252931;
-            box-shadow: 2px 2px 8px 0px #22252d;
+            background-color: #3a5a40;
+            box-shadow: 2px 2px 8px 0px #314d36;
             cursor: pointer;
             transition: all .2sec ease-in-out;
         }
 
         .btn:hover {
             transition: all .2sec ease-in-out;
-            background-color: #292d36;
+            background-color: #476e4e;
         }
 
         .clear {
-            color: #25f7e6;
+            color: #1acf08;
         }
 
         .operator {
-            color: #ea6767;
+            color: #ffb600;
         }
 
         .number {
-            color: #fff;
+            color: #f3f3f3;
         }
     }
 }
