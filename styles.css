@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e8e8e8;
+}
+
+.container {
+    width: 250px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 1.5em;
+    background-color: #22252d;
+    box-shadow:
+      0 1px 1px hsl(0deg 0% 0% / 0.075),
+      0 2px 2px hsl(0deg 0% 0% / 0.075),
+      0 4px 4px hsl(0deg 0% 0% / 0.075),
+      0 8px 8px hsl(0deg 0% 0% / 0.075),
+      0 16px 16px hsl(0deg 0% 0% / 0.075)
+    ;
+
+    .output-container {
+        padding: 0 .5rem;
+        width: 100%;
+        height: 25%;
+        font-family: "Roboto";
+        font-weight: 700;
+        font-size: 2rem;
+        text-align: right;
+        border: none;
+        color: #fff;
+        background-color: #22252d;
+        outline: none;
+        pointer-events: none;
+    }
+
+    .input-container {
+        padding: 1em;
+        width: 100%;
+        height: 65%;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        grid-template-columns: repeat(4, 1fr);
+        border-radius: 1.5em;
+        background-color: #292d36;
+
+        .btn {
+            width: 45px;
+            height: 45px;
+            font-family: "Roboto";
+            font-size: 1rem;
+            font-weight: 400;
+            border-radius: .5em;
+            border: none;
+            background-color: #252931;
+            box-shadow: 2px 2px 8px 0px #22252d;
+            cursor: pointer;
+            transition: all .2sec ease-in-out;
+        }
+
+        .btn:hover {
+            transition: all .2sec ease-in-out;
+            background-color: #292d36;
+        }
+
+        .clear {
+            color: #25f7e6;
+        }
+
+        .operator {
+            color: #ea6767;
+        }
+
+        .number {
+            color: #fff;
+        }
+    }
+}
