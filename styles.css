@@ -10,8 +10,9 @@ body {
     width: 100vw;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: #e8e8e8;
 }
 
@@ -24,12 +25,11 @@ body {
     border-radius: 1.5em;
     background-color: #344e41;
     box-shadow:
-      0 1px 1px hsl(0deg 0% 0% / 0.075),
-      0 2px 2px hsl(0deg 0% 0% / 0.075),
-      0 4px 4px hsl(0deg 0% 0% / 0.075),
-      0 8px 8px hsl(0deg 0% 0% / 0.075),
-      0 16px 16px hsl(0deg 0% 0% / 0.075)
-    ;
+        0 1px 1px hsl(0deg 0% 0% / 0.075),
+        0 2px 2px hsl(0deg 0% 0% / 0.075),
+        0 4px 4px hsl(0deg 0% 0% / 0.075),
+        0 8px 8px hsl(0deg 0% 0% / 0.075),
+        0 16px 16px hsl(0deg 0% 0% / 0.075);
 
     .output-container {
         padding: 0 .5rem;
@@ -88,4 +88,20 @@ body {
             color: #f3f3f3;
         }
     }
+}
+
+p,
+a {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+p {
+    color: #344e41;
+}
+
+a {
+    color: #1acf08;
+    text-decoration: none;
 }
