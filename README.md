@@ -11,4 +11,4 @@ Had several stumbling stones for this exercise, like how to remove one / last ch
 
 I used the **[slice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)** method and the **[eval()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval)** function for those two tasks.
 
-## [Calculator URL](https://tisteedur.github.io/calculator/)
+## [Calculator Demo](https://tisteedur.github.io/calculator/)
